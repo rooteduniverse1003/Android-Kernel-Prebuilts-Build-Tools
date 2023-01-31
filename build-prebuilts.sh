@@ -43,7 +43,7 @@ EOF
         lpmake
         lz4
         mkbootfs
-        mkdtboimg.py
+        mkdtboimg
         mkdtimg
         mke2fs
         mkfs.erofs
@@ -51,6 +51,7 @@ EOF
         pahole
         simg2img
         soong_zip
+        stg
         stgdiff
         stginfo
         swig
