@@ -23,9 +23,6 @@ if [ -n ${build_soong} ]; then
 }
 EOF
     SOONG_BINARIES=(
-        abidiff
-        abidw
-        abitidy
         avbtool
         blk_alloc_to_base_fs
         build_image
@@ -43,7 +40,7 @@ EOF
         lpmake
         lz4
         mkbootfs
-        mkdtboimg.py
+        mkdtboimg
         mkdtimg
         mke2fs
         mkfs.erofs
@@ -51,6 +48,7 @@ EOF
         pahole
         simg2img
         soong_zip
+        stg
         stgdiff
         stginfo
         swig
